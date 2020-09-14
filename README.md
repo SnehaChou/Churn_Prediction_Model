@@ -50,3 +50,15 @@ ROC curve makes it easy to identify the best threshold value for making a decisi
 
 First based on AUC, definetly Random Forest performed better than Logistic Regression.
 
+## Observations
+
+The number of visits to the hospital or the cost incured by the insurance company for the employee, tenure with the company are the most prominent features in estimating whether a customer will churn or not.
+
+Suprisingly, location does not play a major role in estimating the churn ratio.
+
+Also, Age, condition score, number of hospital visits are somewhat correlated.
+
+Random Forest advantages:
+
+1. Can handle outliers
+2. Implicitly does feature selection
