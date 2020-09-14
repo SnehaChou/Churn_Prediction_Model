@@ -9,18 +9,28 @@ Developed a Churn prediction model to identify members who are likely to disenro
 a. Removed Rows with duplicate member_id
 b. Removed outliers from some of the columns
 
+<img src="Images/outliers.png" width=500>
+
 2. Checked relationship between each variable and Churn prediction variable by plotting graphs
 
 Some of the graphs are shown below:
 
+<img src="Images/plots_1.png" width=700>
+
 3. Check for Multicollinearity
+
+<img src="Images/corelation_plot.png" width=700>
 
 4. Standardizing and splitting the data into Training and testing sets
 
 5. Applying Machine Learning models 
  ## a. Logistic Regression Model
  
+ <img src="Images/logistic_regression_roc.png" width=400>
+ 
  ## b. Random Forest Model
+ 
+  <img src="Images/random_forest_roc.png" width=400>
  
 6. Model Comparision
 
