@@ -5,7 +5,7 @@ Developed a Churn prediction model to identify members who are likely to disenro
 ## Steps Followed
 
 1. Data Sanity Check:
-
+Dataset consists of 77k patients and their different attributes such as Age, Gender, Tenure, Physical & Mental Conditions 
 a. Removed Rows with duplicate member_id
 b. Removed outliers from some of the columns
 
